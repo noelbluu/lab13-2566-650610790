@@ -12,6 +12,7 @@ export default function MoviePage() {
           detail={movie.detail}
           rating={movie.rating}
           number={i + 1}
+          key={movie.detail.id}
         />
       ))}
     </div>
